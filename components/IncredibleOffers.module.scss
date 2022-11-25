@@ -1,0 +1,18 @@
+.mainContainer{
+    background-color:#dd4b55 ;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.caruselContainer{
+    width: 90%;
+}
+.rightContainer{
+    width: 10%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

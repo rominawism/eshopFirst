@@ -1,0 +1,20 @@
+
+.searchBoxInput{
+    direction: rtl;
+    cursor: pointer;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    height: 3.5em;
+    width: 600px;
+    border-left-style: none;
+    padding: 1em;
+    margin-right: 20px;
+}
+.searchButton{
+    border-right-style: none;
+    width: 5em;
+    height: 3.5em;
+    cursor: pointer;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+}

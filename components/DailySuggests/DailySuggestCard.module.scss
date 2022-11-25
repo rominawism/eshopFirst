@@ -1,0 +1,42 @@
+.mainContainer{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px;
+    
+}
+
+.productName{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+
+.priceContainer {
+    height: 3em;
+    line-height: 1.5em;
+    color: rgb(92, 209, 13);
+  }
+  .priceDetail{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .priceBeforeOff {
+    color: black;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 0.1em;
+    font-size: 11px;
+  }
+  .offPrcent {
+    text-align: center;
+    width: 3em; 
+    font-size: 0.9em;
+    border-radius: 1em;
+    height: 1.7em;
+    border-style: none;
+    background-color: #22a51d;
+    color: rgb(241, 235, 235);  
+    padding: 5px;
+
+}

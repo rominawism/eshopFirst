@@ -1,0 +1,16 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.notFoundText{
+    color: rgb(166, 0, 0);
+}
+.button{
+    background-color: red;
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+
+}

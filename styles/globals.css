@@ -1,0 +1,41 @@
+/* اضافه کردن فایل نرمال سازی سی اس اس  */
+@import url(normalize.css);
+
+/* تعریف فونت به فایل سی اس اس */
+@font-face {
+  font-family: 'IranSans';
+  src: url('../public/fonts/IRANSans.ttf');
+  }
+
+/* استفاده ار فونت در کل پروژه */
+*{
+  font-family: IranSans ;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

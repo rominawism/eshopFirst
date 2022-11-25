@@ -1,0 +1,60 @@
+.mainContainer{
+    padding: 20px;
+}
+.contentContainer
+{
+display: flex;
+
+}
+.rightContentContainer
+{
+width: 30%;
+}
+.leftContentContainer{
+width: 70%;
+padding: 20px;
+}
+.slidesContainer
+{
+    padding: 30px;
+    max-width: 500px;
+}
+.description{
+    line-height: 2em;
+color: rgb(110, 110, 108);
+}
+.priceContainer {
+    height: 3em;
+    color: rgb(92, 209, 13);
+    line-height: 1.5em;
+  }
+
+  .priceDetail{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .priceBeforeOff {
+    color: black;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 0.1em;
+    font-size: 11px;
+  }
+
+  .offPrcent {
+    text-align: center;
+    width: 3em; 
+    font-size: 0.9em;
+    border-radius: 1em;
+    height: 1.7em;
+    border-style: none;
+    background-color: #22a51d;
+    color: rgb(241, 235, 235);  
+    padding: 5px;
+}
+.bottomContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
